@@ -25,6 +25,11 @@ export default function ProductCard({ product }: ProductCardProps) {
           <h3 className="text-lg font-medium line-clamp-1 hover:underline">{product.title}</h3>
         </Link>
 
+        {/* Product category */}
+        <div className="flex justify-between items-center">
+          <p className="text-custom-colors-dark-gray">{product.category}</p>
+        </div>
+
         {/* Product price */}
         <div className="flex justify-between items-center">
           <p className="font-bold">${product.price.toFixed(2)}</p>
