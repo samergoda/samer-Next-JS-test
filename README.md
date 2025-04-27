@@ -14,7 +14,7 @@ This project is a modern e-commerce frontend built using **Next.js**, **TypeScri
 - [Server Actions] - New server-side logic for handling actions directly in Next.js.
 
 ---
-
+```bash
 ## Project Structure
 ├── app/                    # Next.js app router pages
 ├── components/             # Reusable components
@@ -30,7 +30,7 @@ This project is a modern e-commerce frontend built using **Next.js**, **TypeScri
 ├── postcss.config.js       # PostCSS configuration
 ├── tailwind.config.ts      # Tailwind configuration
 └── tsconfig.json           # TypeScript configuration
-
+```
 ## Features
 
 - Responsive design with Tailwind CSS
